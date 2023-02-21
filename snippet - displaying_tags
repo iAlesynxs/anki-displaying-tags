@@ -1,0 +1,40 @@
+//Add this on the card FRONT field:
+
+{{#Tags}}
+
+	<span class="tag">
+	{{Tags}}
+	</span>
+
+{{/Tags}}
+
+
+
+
+//now the css part:
+
+.card {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  position: relative;
+  padding-top: 30px;
+}
+
+.tag {
+  background-color: #F8F8F8;
+  border-radius: 3px;
+  color: #666;
+  font-size: 12px;
+  margin: 2px;
+  padding: 2px 5px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.6em;
+}
+
